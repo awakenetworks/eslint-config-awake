@@ -21,9 +21,6 @@ module.exports = {
       "before": false,
       "after": true,
     }],
-    // Disallow arrow functions where a condition is expected
-    // http://eslint.org/docs/rules/no-arrow-condition
-    "no-arrow-condition": 2,
     // Disallow duplicate name in class members
     // http://eslint.org/docs/rules/no-dupe-class-members
     "no-dupe-class-members": 2,
