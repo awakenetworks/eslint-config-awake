@@ -1,8 +1,5 @@
 module.exports = {
   "rules": {
-    // Require braces in arrow function body
-    // http://eslint.org/docs/rules/arrow-body-style
-    "arrow-body-style": [2, "as-needed"],
     // Require parens in arrow function arguments
     // http://eslint.org/docs/rules/arrow-parens
     "arrow-parens": [2, "always"],

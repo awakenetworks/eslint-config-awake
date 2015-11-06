@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.2
+
+* Removed `arrow-body-style` rule
+
 ## 0.2.1
 
 * Removed `no-arrow-condition` rule
