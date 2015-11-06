@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.3
+
+* Updated dependency on self
+
 ## 0.2.2
 
 * Removed `arrow-body-style` rule
