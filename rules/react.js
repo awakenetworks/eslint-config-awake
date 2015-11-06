@@ -23,6 +23,9 @@ module.exports = {
     // Validate props indentation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
     "react/jsx-indent-props": [2, 2],
+    // No .bind() or Arrow Functions in JSX Props
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
+    "react/jsx-no-bind": 2,
     // Prevent duplicate properties in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md
     "react/jsx-no-duplicate-props": 2,

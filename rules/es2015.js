@@ -1,5 +1,8 @@
 module.exports = {
   "rules": {
+    // Require braces in arrow function body
+    // http://eslint.org/docs/rules/arrow-body-style
+    "arrow-body-style": [2, "as-needed"],
     // Require parens in arrow function arguments
     // http://eslint.org/docs/rules/arrow-parens
     "arrow-parens": [2, "always"],
@@ -18,6 +21,9 @@ module.exports = {
       "before": false,
       "after": true,
     }],
+    // Disallow arrow functions where a condition is expected
+    // http://eslint.org/docs/rules/no-arrow-condition
+    "no-arrow-condition": 2,
     // Disallow duplicate name in class members
     // http://eslint.org/docs/rules/no-dupe-class-members
     "no-dupe-class-members": 2,

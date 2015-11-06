@@ -32,6 +32,9 @@ module.exports = {
     // Disallow use of arguments.caller or arguments.callee
     // http://eslint.org/docs/rules/no-caller
     "no-caller": 2,
+    // Disallow lexical declarations in case/default clauses
+    // http://eslint.org/docs/rules/no-case-declarations
+    "no-case-declarations": 2,
     // Disallow return in else
     // http://eslint.org/docs/rules/no-else-return
     "no-else-return": 2,
