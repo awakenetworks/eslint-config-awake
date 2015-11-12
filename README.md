@@ -4,8 +4,8 @@ This package provides an .eslintrc file as an extensible shared config.
 
 ## Requirements
 
-1. NodeJS v4+ (for ES6 features)
-2. NPM v3+
+1. Node >=4.2.0
+2. NPM >=3.3.6
 
 ## Usage
 
