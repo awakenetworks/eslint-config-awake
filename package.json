@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-awake",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "An opinionated ESLint config for ES2015 and React",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint -c .eslintrc .",
+    "lint": "eslint -c .eslintrc.json --rulesdir rules .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,11 +31,10 @@
     "url": "https://github.com/awakenetworks/eslint-config-awake/issues"
   },
   "homepage": "https://github.com/awakenetworks/eslint-config-awake",
-  "devDependencies": {
-    "babel-eslint": "^4.1.5",
-    "eslint": "^1.10.0",
-    "eslint-plugin-react": "^3.10.0",
-    "eslint-config-awake": "^0.2.4"
+  "dependencies": {
+    "babel-eslint": "~4.1.6",
+    "eslint": "~1.10.3",
+    "eslint-plugin-react": "~3.11.2"
   },
   "engines": {
     "node": ">=4.2.0",

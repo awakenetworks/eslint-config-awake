@@ -54,9 +54,21 @@ module.exports = {
       "beforeColon": false,
       "afterColon": true,
     }],
+    // Limit Maximum Depth Blocks can be Nested
+    // http://eslint.org/docs/rules/max-depth
+    "max-depth": [2, 4],
+    // Limit Maximum Length of Line
+    // http://eslint.org/docs/rules/max-len
+    "max-len": [2, 120, 2],
     // Enforce Maximum Depth of Nested Callbacks
     // http://eslint.org/docs/rules/max-nested-callbacks
     "max-nested-callbacks": [2, 4],
+    // Limit Maximum Number of Parameters
+    // http://eslint.org/docs/rules/max-params
+    "max-params": [2, 4],
+    // Limit Maximum Number of Statements
+    // http://eslint.org/docs/rules/max-statements
+    "max-statements": [2, 40],
     // Require Constructors to Use Initial Caps
     // http://eslint.org/docs/rules/new-cap
     "new-cap": [2, {

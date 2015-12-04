@@ -1,3 +1,11 @@
+# 0.2.6
+
+* Moved `legacy` rules to `style` rules
+* Renamed `.eslintrc` to `.eslintrc.json`
+* Updated `npm run lint` script
+* Changed `max-len` rule from `80` to `120`
+* Updated dependencies
+
 # 0.2.5
 
 * Updated dependencies

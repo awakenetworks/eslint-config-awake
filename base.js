@@ -3,7 +3,6 @@ module.exports = {
     "eslint-config-awake/rules/best-practices",
     "eslint-config-awake/rules/errors",
     "eslint-config-awake/rules/es2015",
-    "eslint-config-awake/rules/legacy",
     "eslint-config-awake/rules/strict",
     "eslint-config-awake/rules/style",
     "eslint-config-awake/rules/variables",
