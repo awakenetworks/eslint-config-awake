@@ -1,3 +1,7 @@
+# 0.2.7
+
+* Removed `no-invalid-this` rule
+
 # 0.2.6
 
 * Moved `legacy` rules to `style` rules
