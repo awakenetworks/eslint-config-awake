@@ -101,7 +101,7 @@ module.exports = {
     // Disallow Reassignment of Function Parameters
     // http://eslint.org/docs/rules/no-param-reassign
     "no-param-reassign": [2, {
-      "props": true,
+      "props": false,
     }],
     // Disallow Use of __proto__
     // http://eslint.org/docs/rules/no-proto
