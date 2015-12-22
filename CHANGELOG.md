@@ -1,3 +1,7 @@
+# 0.2.9
+
+* Added `react/no-deprecated` rule
+
 # 0.2.8
 
 * Changed `no-param-reassign` to allow modification of parameter properties

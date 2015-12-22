@@ -41,6 +41,9 @@ module.exports = {
     // Prevent usage of dangerous JSX properties
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger.md
     "react/no-danger": 2,
+    // Prevent usage of deprecated methods
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md
+    "react/no-deprecated": 2,
     // Prevent usage of setState in componentDidMount
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
     "react/no-did-mount-set-state": [2, "allow-in-func"],
