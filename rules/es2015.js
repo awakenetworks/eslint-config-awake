@@ -21,9 +21,18 @@ module.exports = {
     // Disallow duplicate name in class members
     // http://eslint.org/docs/rules/no-dupe-class-members
     "no-dupe-class-members": 2,
+    // Disallow arrow functions where they could be confused with comparisons
+    // http://eslint.org/docs/rules/no-confusing-arrow
+    "no-confusing-arrow": 2,
+    // Disallow Symbol Constructor
+    // http://eslint.org/docs/rules/no-new-symbol
+    "no-new-symbol": 2,
     // Disallow use of this/super before calling super() in constructors
     // http://eslint.org/docs/rules/no-this-before-super
     "no-this-before-super": 2,
+    // Disallow unnecessary constructor
+    // http://eslint.org/docs/rules/no-useless-constructor
+    "no-useless-constructor": 2,
     // Require let or const instead of var
     // http://eslint.org/docs/rules/no-var
     "no-var": 2,
@@ -39,5 +48,8 @@ module.exports = {
     // Suggest using template literals instead of string concatenation
     // http://eslint.org/docs/rules/prefer-template
     "prefer-template": 2,
+    // Enforce spacing around the * in yield* expressions
+    // http://eslint.org/docs/rules/yield-star-spacing
+    "yield-star-spacing": [2, "before"],
   },
 };

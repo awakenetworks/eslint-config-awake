@@ -1,12 +1,9 @@
 module.exports = {
   "rules": {
-    // Enforce JSX Quote Style
-    // http://eslint.org/docs/rules/jsx-quotes
-    "jsx-quotes": [2, "prefer-single"],
     // Prevent missing displayName in a React component definition
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
     "react/display-name": [2, {
-      "acceptTranspilerName": true,
+      "ignoreTranspilerName": false,
     }],
     // Enforce boolean attributes notation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
@@ -20,6 +17,9 @@ module.exports = {
     // Disallow spaces inside of curly braces in JSX attributes
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
     "react/jsx-curly-spacing": [2, "never"],
+    // Disallow spaces around equal signs in JSX attributes
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
+    "react/jsx-equals-spacing": [2, "never"],
     // Validate props indentation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
     "react/jsx-indent-props": [2, 2],
@@ -32,6 +32,9 @@ module.exports = {
     // Disallow undeclared variables in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
     "react/jsx-no-undef": 2,
+    // Validate spacing before closing bracket in JSX
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
+    "react/jsx-space-before-closing": [2, "always"],
     // Prevent React to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
     "react/jsx-uses-react": 2,
@@ -79,24 +82,8 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
     "react/sort-comp": [2, {
       "order": [
-        "displayName",
-        "propTypes",
-        "contextTypes",
-        "childContextTypes",
-        "mixins",
-        "statics",
-        "defaultProps",
-        "constructor",
-        "getDefaultProps",
-        "getInitialState",
-        "getChildContext",
-        "componentWillMount",
-        "componentDidMount",
-        "componentWillReceiveProps",
-        "shouldComponentUpdate",
-        "componentWillUpdate",
-        "componentDidUpdate",
-        "componentWillUnmount",
+        "static-methods",
+        "lifecycle",
         "everything-else",
         "/^on.+$/",
         "/^get.+$/",

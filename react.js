@@ -15,11 +15,12 @@ module.exports = {
     // https://facebook.github.io/jest/
     "jest": true,
   },
-  "ecmaFeatures": {
-    // enable ES6 modules and global strict mode
-    "modules": true,
-    // enable JSX
-    "jsx": true,
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
   "extends": [
     "eslint-config-awake/rules/react",

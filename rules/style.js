@@ -48,6 +48,9 @@ module.exports = {
     "indent": [2, 2, {
       "SwitchCase": 1,
     }],
+    // Enforce JSX Quote Style
+    // http://eslint.org/docs/rules/jsx-quotes
+    "jsx-quotes": [2, "prefer-single"],
     // Enforce Property Spacing
     // http://eslint.org/docs/rules/key-spacing
     "key-spacing": [2, {
@@ -107,6 +110,9 @@ module.exports = {
     // Disallow or enforce spaces inside of curly braces in objects
     // http://eslint.org/docs/rules/object-curly-spacing
     "object-curly-spacing": [2, "always"],
+    // Require One Variable Declaration per line/scope
+    // http://eslint.org/docs/rules/one-var
+    "one-var": [2, "never"],
     // Enforce Operator Assignment Shorthand
     // http://eslint.org/docs/rules/operator-assignment
     "operator-assignment": [2, "always"],
@@ -131,12 +137,15 @@ module.exports = {
     // Enforce Semicolons
     // http://eslint.org/docs/rules/semi
     "semi": [2, "always"],
-    // Require a space after keywords
-    // http://eslint.org/docs/rules/space-after-keywords
-    "space-after-keywords": 2,
-    // Require a space before keywords
-    // http://eslint.org/docs/rules/space-before-keywords
-    "space-before-keywords": [2, "always"],
+    // Enforce Usage of Spacing in Template Strings
+    // http://eslint.org/docs/rules/template-curly-spacing
+    "template-curly-spacing": [2, "never"],
+    // Enforce spacing before and after keywords
+    // http://eslint.org/docs/rules/keyword-spacing
+    "keyword-spacing": [2, {
+      "before": true,
+      "after": true
+    }],
     // Require Space Before Blocks
     // http://eslint.org/docs/rules/space-before-blocks
     "space-before-blocks": [2, "always"],
@@ -149,9 +158,6 @@ module.exports = {
     // Require Spaces Around Infix Operators
     // http://eslint.org/docs/rules/space-infix-ops
     "space-infix-ops": 2,
-    // Require spaces following return, throw, and case
-    // http://eslint.org/docs/rules/space-return-throw-case
-    "space-return-throw-case": 2,
     // Require or disallow spaces before/after unary operators
     // http://eslint.org/docs/rules/space-unary-ops
     "space-unary-ops": [1, {

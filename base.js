@@ -18,9 +18,9 @@ module.exports = {
     // Node.js global variables and Node.js-specific rules
     "node": true,
   },
-  "ecmaFeatures": {
-    // enable ES6 modules and global strict mode
-    "modules": true,
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
   },
   "rules": {},
 };

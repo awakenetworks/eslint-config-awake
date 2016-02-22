@@ -1,5 +1,8 @@
 module.exports = {
   "rules": {
+    // Enforces return statements in callbacks of array's methods
+    // http://eslint.org/docs/rules/array-callback-return
+    "array-callback-return": 2,
     // Limit Cyclomatic Complexity
     // http://eslint.org/docs/rules/complexity
     //"complexity": [2, 2],
@@ -38,6 +41,12 @@ module.exports = {
     // Disallow return in else
     // http://eslint.org/docs/rules/no-else-return
     "no-else-return": 2,
+    // Disallow empty functions
+    // http://eslint.org/docs/rules/no-empty-function
+    "no-empty-function": [2, {
+      // allow arrow functions to be empty
+      "allow": ["arrowFunctions"]
+    }],
     // Disallow empty destructuring patterns
     // http://eslint.org/docs/rules/no-empty-pattern
     "no-empty-pattern": 2,
@@ -115,6 +124,9 @@ module.exports = {
     // Disallow Script URLs
     // http://eslint.org/docs/rules/no-script-url
     "no-script-url": 2,
+    // Disallow Self Assignment
+    // http://eslint.org/docs/rules/no-self-assign
+    "no-self-assign": 2,
     // Disallow Self Compare
     // http://eslint.org/docs/rules/no-self-compare
     "no-self-compare": 2,

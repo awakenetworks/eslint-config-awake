@@ -1,3 +1,9 @@
+# 0.3.0
+
+* Updated dependencies
+* Added new rules
+* Updated `react/sort-comp` rule
+
 # 0.2.9
 
 * Added `react/no-deprecated` rule
