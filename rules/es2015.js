@@ -23,7 +23,9 @@ module.exports = {
     "no-dupe-class-members": 2,
     // Disallow arrow functions where they could be confused with comparisons
     // http://eslint.org/docs/rules/no-confusing-arrow
-    "no-confusing-arrow": 2,
+    "no-confusing-arrow": [2, {
+      "allowParens": true
+    }],
     // Disallow Symbol Constructor
     // http://eslint.org/docs/rules/no-new-symbol
     "no-new-symbol": 2,
