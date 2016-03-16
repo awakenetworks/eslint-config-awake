@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-awake",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "An opinionated ESLint config for ES2015 and React",
   "main": "index.js",
   "scripts": {

@@ -1,3 +1,7 @@
+# 0.3.1
+
+* Relaxed `no-confusing-arrow` rule to allow parens to give clarity
+
 # 0.3.0
 
 * Updated dependencies
