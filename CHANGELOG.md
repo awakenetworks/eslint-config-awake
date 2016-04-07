@@ -1,3 +1,7 @@
+# 0.3.2
+
+* Bumped versions of some dependencies
+
 # 0.3.1
 
 * Relaxed `no-confusing-arrow` rule to allow parens to give clarity
