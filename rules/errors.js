@@ -69,6 +69,9 @@ module.exports = {
     // Disallow Unreachable Code
     // http://eslint.org/docs/rules/no-unreachable
     "no-unreachable": 2,
+    // Disallow control flow statements in finally blocks
+    // http://eslint.org/docs/rules/no-unsafe-finally
+    "no-unsafe-finally": 2,
     // Require isNaN()
     // http://eslint.org/docs/rules/use-isnan
     "use-isnan": 2,

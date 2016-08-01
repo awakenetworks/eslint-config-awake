@@ -20,6 +20,12 @@ module.exports = {
     // Disallow spaces around equal signs in JSX attributes
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
     "react/jsx-equals-spacing": [2, "never"],
+    // Enforce event handler naming conventions in JSX
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
+    "react/jsx-handler-names": [2, {
+      "eventHandlerPrefix": "handle",
+      "eventHandlerPropPrefix": "on"
+    }],
     // Validate props indentation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
     "react/jsx-indent-props": [2, 2],
@@ -75,6 +81,9 @@ module.exports = {
     // Prevent missing React when using JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
     "react/react-in-jsx-scope": 2,
+    // Require returning value in render function
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-render-return.md
+    "react/require-render-return": 2,
     // Prevent extra closing tags for components without children
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md
     "react/self-closing-comp": 2,

@@ -32,6 +32,9 @@ module.exports = {
     // Disallow use of this/super before calling super() in constructors
     // http://eslint.org/docs/rules/no-this-before-super
     "no-this-before-super": 2,
+    // Disallow unnecessary computed property keys on objects
+    // http://eslint.org/docs/rules/no-useless-computed-key
+    "no-useless-computed-key": 2,
     // Disallow unnecessary constructor
     // http://eslint.org/docs/rules/no-useless-constructor
     "no-useless-constructor": 2,
