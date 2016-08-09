@@ -41,7 +41,7 @@ module.exports = {
     // http://eslint.org/docs/rules/id-length
     "id-length": [2, {
       "min": 2,
-      "exceptions": ["i"],
+      "exceptions": ["i", "j", "x", "y", "z", "_"],
     }],
     // Enforce Indentation
     // http://eslint.org/docs/rules/indent
@@ -121,7 +121,11 @@ module.exports = {
     "operator-linebreak": [2, "after"],
     // Enforce padding within blocks
     // http://eslint.org/docs/rules/padded-blocks
-    "padded-blocks": [2, "never"],
+    "padded-blocks": [2, {
+      "blocks": "never",
+      "classes": "never",
+      "switches": "never"
+    }],
     // Enforce Quoting Style for Property Names
     // http://eslint.org/docs/rules/quote-props
     "quote-props": [2, "as-needed"],
