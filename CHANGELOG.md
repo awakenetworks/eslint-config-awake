@@ -1,3 +1,13 @@
+# 1.0.0
+
+* Add `no-unsafe-finally` rule
+* Add `no-useless-computed-key` rule
+* Add `react/jsx-handler-names` rule
+* Add `react/require-render-return` rule
+* Update `id-length` rule: add "j", "x", "y", "z", "_" to exceptions
+* Update `padded-blocks` rule : add rules for classes and switch statements
+* Upgrade dependencies
+
 # 0.3.2
 
 * Bumped versions of some dependencies
