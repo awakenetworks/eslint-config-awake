@@ -1,3 +1,7 @@
+# 1.0.1
+
+* Remove config option for `no-did-mount-set-state` rule
+
 # 1.0.0
 
 * Add `no-unsafe-finally` rule
