@@ -89,7 +89,10 @@ module.exports = {
     "react/require-render-return": 2,
     // Prevent extra closing tags for components without children
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md
-    "react/self-closing-comp": 2,
+    "react/self-closing-comp": [2, {
+      "component": true,
+      "html": false,
+    }],
     // Enforce component methods order
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
     "react/sort-comp": [2, {
