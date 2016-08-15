@@ -1,3 +1,7 @@
+# 1.1.0
+
+* Update `react/jsx-self-closing-comp` rule: only enable for components
+
 # 1.0.2
 
 * Update `wrap-multilines` rule name
