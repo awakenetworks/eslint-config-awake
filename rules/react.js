@@ -47,6 +47,9 @@ module.exports = {
     // Prevent variables used in JSX to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md
     "react/jsx-uses-vars": 2,
+    // Prevent missing parentheses around multilines JSX
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-wrap-multilines.md
+    "react/jsx-wrap-multilines": 2,
     // Prevent usage of dangerous JSX properties
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger.md
     "react/no-danger": 2,
@@ -99,9 +102,6 @@ module.exports = {
         "/^render.+$/",
         "render",
       ],
-    }],
-    // Prevent missing parentheses around multilines JSX
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md
-    "react/wrap-multilines": 2,
+    }]
   },
 };
