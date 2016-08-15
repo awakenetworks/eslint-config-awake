@@ -1,3 +1,7 @@
+# 1.0.2
+
+* Update `wrap-multilines` rule name
+
 # 1.0.1
 
 * Remove config option for `no-did-mount-set-state` rule
