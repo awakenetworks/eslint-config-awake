@@ -1,3 +1,7 @@
+# 1.2.0
+
+* Add `no-useless-rename` rule
+
 # 1.1.0
 
 * Update `react/jsx-self-closing-comp` rule: only enable for components
