@@ -38,6 +38,13 @@ module.exports = {
     // Disallow unnecessary constructor
     // http://eslint.org/docs/rules/no-useless-constructor
     "no-useless-constructor": 2,
+    // Disallow renaming import, export, and destructured assignments to the same name
+    // http://eslint.org/docs/rules/no-useless-rename
+    "no-useless-rename": [2, {
+      "ignoreDestructuring": false,
+      "ignoreImport": false,
+      "ignoreExport": false,
+    }],
     // Require let or const instead of var
     // http://eslint.org/docs/rules/no-var
     "no-var": 2,
