@@ -1,3 +1,7 @@
+# 1.3.0
+
+* Change `react/jsx-boolean-value` from "never" to "always"
+
 # 1.2.0
 
 * Add `no-useless-rename` rule
