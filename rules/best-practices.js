@@ -89,9 +89,9 @@ module.exports = {
     // Disallow Multiline Strings
     // http://eslint.org/docs/rules/no-multi-str
     "no-multi-str": 2,
-    // Disallow Reassignment of Native Objects
-    // http://eslint.org/docs/rules/no-native-reassign
-    "no-native-reassign": 2,
+    // Disallow assignment to native objects or read-only global variables
+    // http://eslint.org/docs/rules/no-global-assign
+    "no-global-assign": 2,
     // Disallow Function Constructor
     // http://eslint.org/docs/rules/no-new-func
     "no-new-func": 2,

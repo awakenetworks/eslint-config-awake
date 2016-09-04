@@ -60,6 +60,9 @@ module.exports = {
     // Suggest using template literals instead of string concatenation
     // http://eslint.org/docs/rules/prefer-template
     "prefer-template": 2,
+    // Require symbol description
+    // http://eslint.org/docs/rules/symbol-description
+    "symbol-description": 2,
     // Enforce spacing around the * in yield* expressions
     // http://eslint.org/docs/rules/yield-star-spacing
     "yield-star-spacing": [2, "before"],

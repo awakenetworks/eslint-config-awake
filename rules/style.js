@@ -34,6 +34,9 @@ module.exports = {
     // Require files to end with single newline
     // http://eslint.org/docs/rules/eol-last
     "eol-last": 2,
+    // Disallow Spaces in Function Calls
+    // http://eslint.org/docs/rules/func-call-spacing
+    "func-call-spacing": [2, "never"],
     // Require Names for Function Expressions
     // http://eslint.org/docs/rules/func-names
     "func-names": 1,
@@ -98,15 +101,19 @@ module.exports = {
     // Disallow the use of the Object constructor
     // http://eslint.org/docs/rules/no-new-object
     "no-new-object": 2,
-    // Disallow Spaces in Function Calls
-    // http://eslint.org/docs/rules/no-spaced-func
-    "no-spaced-func": 2,
     // Disallow trailing spaces at the end of lines
     // http://eslint.org/docs/rules/no-trailing-spaces
     "no-trailing-spaces": 2,
     // Disallow conditional expressions that can be expressed with simpler constructs
     // http://eslint.org/docs/rules/no-unneeded-ternary
     "no-unneeded-ternary": 2,
+    // Disallow dangling underscores in identifiers
+    // http://eslint.org/docs/rules/no-underscore-dangle
+    "no-underscore-dangle": [2, {
+      "allow": [],
+      "allowAfterThis": false,
+      "allowAfterSuper": false
+    }],
     // Disallow or enforce spaces inside of curly braces in objects
     // http://eslint.org/docs/rules/object-curly-spacing
     "object-curly-spacing": [2, "always"],

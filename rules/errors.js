@@ -54,9 +54,6 @@ module.exports = {
     // Disallow irregular whitespace
     // http://eslint.org/docs/rules/no-irregular-whitespace
     "no-irregular-whitespace": 2,
-    // Disallow negated left operand of in operator
-    // http://eslint.org/docs/rules/no-negated-in-lhs
-    "no-negated-in-lhs": 2,
     // Disallow Global Object Function Calls
     // http://eslint.org/docs/rules/no-obj-calls
     "no-obj-calls": 2,
@@ -72,6 +69,9 @@ module.exports = {
     // Disallow control flow statements in finally blocks
     // http://eslint.org/docs/rules/no-unsafe-finally
     "no-unsafe-finally": 2,
+    // Disallow negating the left operand of relational operators
+    // http://eslint.org/docs/rules/no-unsafe-negation
+    "no-unsafe-negation": 2,
     // Require isNaN()
     // http://eslint.org/docs/rules/use-isnan
     "use-isnan": 2,
