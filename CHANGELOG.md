@@ -1,3 +1,11 @@
+# 1.4.0
+
+* Add `symbol-description` rule
+* Add `no-underscore-dangle` rule
+* Rename `no-native-reassign` => `no-global-assign`
+* Rename `no-negated-in-lhs` => `no-unsafe-negation`
+* Rename `no-spaced-func` => `func-call-spacing`
+
 # 1.3.0
 
 * Change `react/jsx-boolean-value` from "never" to "always"
