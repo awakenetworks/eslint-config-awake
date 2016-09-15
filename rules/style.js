@@ -66,6 +66,13 @@ module.exports = {
     // Limit Maximum Length of Line
     // http://eslint.org/docs/rules/max-len
     "max-len": [2, 120, 2],
+    // Enforce a maximum number of lines per file
+    // http://eslint.org/docs/rules/max-lines
+    "max-lines": [1, {
+      "max": 500,
+      "skipBlankLines": false,
+      "skipComments": false
+    }],
     // Enforce Maximum Depth of Nested Callbacks
     // http://eslint.org/docs/rules/max-nested-callbacks
     "max-nested-callbacks": [2, 4],
