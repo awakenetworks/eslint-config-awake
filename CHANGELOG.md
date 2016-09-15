@@ -1,3 +1,7 @@
+# 1.5.0
+
+* Add `max-lines` rule
+
 # 1.4.0
 
 * Add `symbol-description` rule
