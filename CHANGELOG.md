@@ -1,3 +1,13 @@
+# 2.0.0
+
+* Use relative paths with `extends`
+* Use ECMAScript version 8 when processing code (allows for static class properties)
+* Remove and/or update deprecated rules
+* Upgrade dependencies
+* Add `yarn.lock` file
+* Add `files` key to `package.json`
+* Add `react/jsx-closing-tag-location`, `react/no-danger-with-children`, `react/no-redundant-should-component-update`, `react/no-will-update-set-state`, `react/require-optimization`, and `react/void-dom-elements-no-children` rules
+
 # 1.5.0
 
 * Add `max-lines` rule
