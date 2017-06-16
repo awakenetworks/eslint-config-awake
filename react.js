@@ -16,14 +16,14 @@ module.exports = {
     "jest": true,
   },
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 8,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
     }
   },
   "extends": [
-    "eslint-config-awake/rules/react",
+    "./rules/react.js",
   ],
   "rules": {},
 };

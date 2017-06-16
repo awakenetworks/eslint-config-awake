@@ -145,7 +145,9 @@ module.exports = {
     "quote-props": [2, "as-needed"],
     // Enforce Quote Style
     // http://eslint.org/docs/rules/quotes
-    "quotes": [2, "single", "avoid-escape"],
+    "quotes": [2, "single", {
+      "avoidEscape": true
+    }],
     // Enforce spacing before and after semicolons
     // http://eslint.org/docs/rules/semi-spacing
     "semi-spacing": [2, {

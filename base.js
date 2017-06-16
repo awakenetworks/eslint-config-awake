@@ -1,11 +1,11 @@
 module.exports = {
   "extends": [
-    "eslint-config-awake/rules/best-practices",
-    "eslint-config-awake/rules/errors",
-    "eslint-config-awake/rules/es2015",
-    "eslint-config-awake/rules/strict",
-    "eslint-config-awake/rules/style",
-    "eslint-config-awake/rules/variables",
+    "./rules/best-practices.js",
+    "./rules/errors.js",
+    "./rules/es2015.js",
+    "./rules/strict.js",
+    "./rules/style.js",
+    "./rules/variables.js",
   ],
   // https://github.com/babel/babel-eslint
   "parser": "babel-eslint",
@@ -19,7 +19,7 @@ module.exports = {
     "node": true,
   },
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 8,
     "sourceType": "module"
   },
   "rules": {},

@@ -14,6 +14,9 @@ module.exports = {
       "nonEmpty": "after-props",
       "selfClosing": "after-props",
     }],
+    // Validate closing tag location in JSX (fixable)
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-tag-location.md
+    "react/jsx-closing-tag-location": 2,
     // Disallow spaces inside of curly braces in JSX attributes
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
     "react/jsx-curly-spacing": [2, "never"],
@@ -38,9 +41,13 @@ module.exports = {
     // Disallow undeclared variables in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
     "react/jsx-no-undef": 2,
-    // Validate spacing before closing bracket in JSX
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
-    "react/jsx-space-before-closing": [2, "always"],
+    // Validate whitespace in and around the JSX opening and closing brackets (fixable)
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-tag-spacing.md
+    "react/jsx-tag-spacing": [2, {
+      "closingSlash": "never",
+      "beforeSelfClosing": "always",
+      "afterOpening": "never"
+    }],
     // Prevent React to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
     "react/jsx-uses-react": 2,
@@ -53,6 +60,9 @@ module.exports = {
     // Prevent usage of dangerous JSX properties
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger.md
     "react/no-danger": 2,
+    // Prevent problem with children and props.dangerouslySetInnerHTML (react/no-danger-with-children)
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger-with-children.md
+    "react/no-danger-with-children": 2,
     // Prevent usage of deprecated methods
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md
     "react/no-deprecated": 2,
@@ -70,9 +80,15 @@ module.exports = {
     "react/no-multi-comp": [2, {
       "ignoreStateless": true,
     }],
+    // Prevent usage of shouldComponentUpdate when extending React.PureComponent
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-redundant-should-component-update.md
+    "react/no-redundant-should-component-update": 2,
     // Prevent usage of unknown DOM property
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unknown-property.md
     "react/no-unknown-property": 2,
+    // Prevent usage of setState in componentWillUpdate
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-will-update-set-state.md
+    "react/no-will-update-set-state": [2, "disallow-in-func"],
     // Prefer ES6 classes over React.createClass
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md
     "react/prefer-es6-class": 2,
@@ -81,6 +97,9 @@ module.exports = {
     "react/prop-types": [2, {
       "ignore": ["className"],
     }],
+    // Enforce React components to have a shouldComponentUpdate method
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-optimization.md
+    "react/require-optimization": 2,
     // Prevent missing React when using JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
     "react/react-in-jsx-scope": 2,
@@ -105,6 +124,9 @@ module.exports = {
         "/^render.+$/",
         "render",
       ],
-    }]
+    }],
+    // Prevent void DOM elements (e.g. <img />, <br />) from receiving children
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/void-dom-elements-no-children.md
+    "react/void-dom-elements-no-children": 2
   },
 };
